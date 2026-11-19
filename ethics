@@ -1,0 +1,126 @@
+# Ethics – SunGuard
+
+## 1\. Scopo e principi
+
+SunGuard è un assistente basato sull’intelligenza artificiale, progettato per offrire informazioni e orientamento nella scelta degli occhiali da sole\. Il progetto utilizza l’AI per raccogliere le esigenze dichiarate dall’utente, spiegare alcune caratteristiche dei filtri solari e preparare un riepilogo da discutere con un professionista della vista\.
+
+Lo sviluppo e l’utilizzo di SunGuard si basano sui seguenti principi:
+
+- **Centralità della persona:** le esigenze, le preferenze e la sicurezza dell’utente vengono prima della raccomandazione\.
+- **Trasparenza:** l’utente deve sapere che sta interagendo con un sistema di intelligenza artificiale\.
+- **Accuratezza:** le informazioni tecniche devono provenire da fonti affidabili e aggiornate\.
+- **Responsabilità:** il sistema deve riconoscere i propri limiti e non sostituire il giudizio di un professionista\.
+- **Rispetto della privacy:** vengono richieste e utilizzate soltanto le informazioni necessarie alla consulenza\.
+- **Equità:** le raccomandazioni non devono basarsi su stereotipi o caratteristiche personali irrilevanti\.
+
+## 2\. Limiti in ambito visivo e sanitario
+
+SunGuard fornisce esclusivamente informazioni generali e suggerimenti orientativi\. Non è un dispositivo medico e non deve essere presentato come tale\.
+
+In particolare, SunGuard:
+
+- non formula diagnosi o valutazioni cliniche;
+- non determina autonomamente se una persona sia miope, ipermetrope, astigmatica o presbite;
+- non crea, modifica o sostituisce una prescrizione;
+- non inventa valori di sfera &#40;SPH&#41;, cilindro &#40;CYL&#41;, asse &#40;AX&#41; o addizione &#40;ADD&#41;;
+- non garantisce che una lente o un filtro sia adatto a ogni persona o situazione;
+- invita a verificare la prescrizione e le caratteristiche delle lenti con un ottico qualificato e, quando necessario, con un oculista\.
+
+Se l’utente riferisce sintomi nuovi, importanti o persistenti, l’assistente deve evitare di formulare ipotesi diagnostiche e suggerire una valutazione da parte di un professionista sanitario\.
+
+## 3\. Sicurezza delle raccomandazioni sui filtri solari
+
+La scelta di un filtro solare deve considerare la destinazione d’uso e le caratteristiche certificate del prodotto\.
+
+SunGuard deve distinguere chiaramente:
+
+- la **categoria del filtro**, che riguarda la trasmissione della luce visibile;
+- la **protezione UV**, che deve essere verificata separatamente sulla documentazione del prodotto;
+- la **polarizzazione**, che riduce determinati riflessi ma non equivale, da sola, a protezione UV;
+- la **colorazione della lente**, che non permette di dedurre automaticamente il livello di protezione\.
+
+Il sistema non deve consigliare lenti di categoria 4 per la guida\. Deve inoltre chiarire che le raccomandazioni dipendono dalle condizioni di utilizzo e che le indicazioni del produttore e la conformità alle norme applicabili devono essere verificate\.
+
+## 4\. Privacy e protezione dei dati
+
+Durante la conversazione potrebbero essere condivise informazioni personali o relative alla vista\. Per questo motivo, il progetto deve seguire criteri di minimizzazione e protezione dei dati\.
+
+Indicazioni per l’implementazione:
+
+- non chiedere nome, cognome, indirizzo o altri dati identificativi se non sono necessari;
+- consentire all’utente di non comunicare informazioni facoltative;
+- non richiedere fotografie, documenti o prescrizioni complete se non indispensabili;
+- non utilizzare i dati raccolti per finalità diverse da quelle comunicate;
+- limitare l’accesso ai dati e proteggere credenziali, chiavi API e collegamenti ai servizi;
+- definire tempi di conservazione adeguati ed eliminare i dati quando non sono più necessari;
+- informare l’utente se la conversazione o i dati vengono conservati da n8n, dal provider del modello AI o da altri servizi collegati\.
+
+Prima di un utilizzo reale, il responsabile del progetto deve verificare i flussi dei dati, le impostazioni di conservazione e i termini dei fornitori utilizzati\. Devono essere predisposte informative adeguate e, quando richiesto, raccolte le basi giuridiche e le autorizzazioni necessarie secondo la normativa applicabile, incluso il GDPR\.
+
+**Non inserire mai nel repository GitHub** dati personali degli utenti, conversazioni reali, prescrizioni, credenziali, token o chiavi API\.
+
+## 5\. Trasparenza sull’intelligenza artificiale
+
+L’utente deve essere informato che le risposte sono generate da un sistema di intelligenza artificiale\.
+
+SunGuard deve:
+
+- spiegare in modo comprensibile perché propone una determinata soluzione;
+- distinguere i dati comunicati dall’utente dalle valutazioni generate dall’AI;
+- segnalare quando mancano informazioni o quando un dato deve essere verificato;
+- evitare di presentare come certe informazioni non verificate;
+- non simulare il ruolo o l’identità di un ottico, optometrista o medico\.
+
+## 6\. Affidabilità delle fonti e aggiornamento
+
+Le informazioni su fisiologia oculare, filtri solari, trasmissione luminosa e protezione UV devono essere basate su fonti tecniche affidabili\.
+
+Il progetto dovrebbe:
+
+- utilizzare documentazione normativa e tecnica pertinente, verificandone l’edizione vigente;
+- preferire fonti istituzionali, scientifiche e documentazione ufficiale dei produttori;
+- controllare periodicamente che le informazioni non siano obsolete;
+- indicare chiaramente quando un dato è indicativo;
+- correggere tempestivamente eventuali informazioni errate individuate\.
+
+Le raccomandazioni non devono essere considerate una certificazione del prodotto né una verifica della sua conformità\.
+
+## 7\. Equità e comportamento dell’assistente
+
+Le risposte devono essere rispettose, comprensibili e non discriminatorie\.
+
+L’assistente deve:
+
+- usare un linguaggio semplice e accessibile;
+- non giudicare le preferenze estetiche o le caratteristiche personali dell’utente;
+- non presumere esigenze sulla base dell’età, del genere o di altre caratteristiche non pertinenti;
+- proporre alternative quando esistono più soluzioni ragionevoli;
+- dichiarare i limiti della propria valutazione;
+- non esercitare pressione per acquistare un prodotto o scegliere un determinato marchio\.
+
+## 8\. Supervisione umana
+
+La scheda prodotta da SunGuard è un riepilogo orientativo da sottoporre a un professionista\. L’ottico deve verificare la prescrizione, i parametri di centratura e montaggio, la compatibilità delle lenti con la montatura e le caratteristiche del prodotto\.
+
+La decisione finale non deve essere delegata esclusivamente all’intelligenza artificiale\.
+
+## 9\. Responsabilità del progetto
+
+Chi sviluppa e gestisce SunGuard è responsabile di:
+
+- verificare il funzionamento del workflow n8n;
+- controllare prompt, fonti e risposte dell’agente;
+- proteggere credenziali e dati;
+- testare il sistema anche in presenza di informazioni incomplete o contraddittorie;
+- correggere comportamenti non sicuri o informazioni inesatte;
+- comunicare chiaramente le finalità e i limiti del servizio\.
+
+## 10\. Dichiarazione finale
+
+SunGuard nasce con l’obiettivo di utilizzare l’intelligenza artificiale come supporto informativo nel settore dell’ottica, mantenendo al centro la sicurezza, la trasparenza e il ruolo dei professionisti\.
+
+L’AI può facilitare la raccolta e l’organizzazione delle informazioni, ma non sostituisce l’esperienza, la valutazione e la responsabilità dell’ottico o degli altri professionisti sanitari\.
+
+---
+
+*Documento etico del progetto SunGuard\. Da aggiornare in base alle funzionalità effettivamente implementate, ai servizi utilizzati e alle modalità reali di trattamento dei dati\.*
