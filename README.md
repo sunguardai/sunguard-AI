@@ -15,8 +15,8 @@ lenti solari.
 
 📌 Demo del progetto
 
-• Prova la chat SunGuard: [INSERISCI QUI IL LINK ALLA CHAT]
-• Guarda il video dimostrativo: [INSERISCI QUI IL LINK AL VIDEO]
+• Prova la chat SunGuard: https://sunguardai.app.n8n.cloud/webhook/70def162-ad9b-48e3-ab11-8a6edf8696c7/chat
+• Guarda il video dimostrativo: https://drive.google.com/file/d/1LipEjp4ZDAPcYDGurjAmmU96gBzhPBOD/view?usp=drivesdk
 
 Sostituisci i due segnaposto con i link effettivi prima di pubblicare il
 repository.
